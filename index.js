@@ -17,7 +17,7 @@ var сlasses = {
                 if (item) {
                     var type = typeof item === 'undefined' ? 'undefined' : _typeof(item);
 
-                    if (['string', 'number'].indexOf(type)) {
+                    if (['string', 'number'].indexOf(type) >= 0) {
                         r.push(item);
                     } else {
                         Object.keys(item).map(function (name) {
