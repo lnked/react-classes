@@ -4,23 +4,28 @@
   "description": "A simple JavaScript utility for conditionally joining classNames",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha tests/*.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/lnked/react-classes.git"
+    "url": "https://github.com/lnked/react-classes.git"
   },
   "keywords": [
-    "React",
+    "react",
+    "css",
+    "classes",
     "classname",
-    "concat",
-    "condition",
-    "concat"
+    "classnames",
+    "util",
+    "utility"
   ],
-  "author": "lnled <ed.proff@gmail.com>",
-  "license": "ISC",
+  "author": "Edik Bulikyan <ed.proff@gmail.com>",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/lnked/react-classes/issues"
   },
-  "homepage": "https://github.com/lnked/react-classes#readme"
+  "homepage": "https://github.com/lnked/react-classes#readme",
+  "devDependencies": {
+    "mocha": "5.2.0"
+  }
 }
