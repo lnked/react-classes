@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/lnked/react-classes.git"
+    "url": "git+https://github.com/lnked/react-classes.git"
   },
   "keywords": [
     "react",
