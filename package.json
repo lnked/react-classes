@@ -1,5 +1,5 @@
 {
-  "name": "classes",
+  "name": "react-class-names",
   "version": "1.0.0",
   "description": "A simple JavaScript utility for conditionally joining classNames",
   "main": "index.js",
